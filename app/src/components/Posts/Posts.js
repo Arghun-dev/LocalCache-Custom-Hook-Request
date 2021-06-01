@@ -1,5 +1,5 @@
 const Posts = ({ posts }) => {
-  if (!posts.length) return null;
+  if (!posts.length) return <h2>No Posts Found!</h2>;
 
   return (
     <div>
